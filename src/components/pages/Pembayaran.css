@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap'); 
+
+/* HERO PAGE */
+.hero_pembayaran{
+    margin-top: 90px;
+    background-color: #F1F3FF;
+    position: relative;
+}
+
+.tema_sewaMobil {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    width: 468px;
+}
+
+
+.one-car {
+    /* margin-left: 110px; */
+    margin: 15px 0px 0px 60px;
+}   
+
+.car {
+    width: 779px;
+}
+
+
+/* BOX STYLE */
+.wrap_box {
+    margin-left: 40px;
+    /* margin-top: 200px; */
+}
+
+.box{
+    margin: -50px 65px auto;
+    width: 1110px;
+    padding: 25px 0px 25px 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    position: absolute;
+}
+
+
+.label_pembayaran {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #3C3C3C;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.data_name{
+    margin-left: 8px;
+}
+
+
+.data_name input{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container-pembayaran {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 605px;
+    height: 390px;
+  }
+
+  .container-pembayaran .bold {
+    margin: 15px;
+    padding: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .container-pembayaran .normal {
+    margin: 15px;
+    padding: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+
+.pembayaran{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 8px;
+}
+
+.bayar_namamobil{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8A8A8A;
+    margin-top: 8px;
+}
+
+.btn_pembayaran_mandiri{
+    border: 1px solid #D0D0D0;
+    border-radius: 4px;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px;
+    width: 61px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+.btn_pembayaran{
+    border: 1px solid #D0D0D0;
+    border-radius: 4px;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    width: 61px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.bank_tf {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    margin-left: 16px;
+    margin-top: 30px;
+}
+
+.hr{
+    width: 555px;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+.card-pembayaran {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-left: 88px;
+    width: 405px;
+    height: 600px;
+  }
+
+  .merk-car{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-left:  24px;
+  }
+
+  .userImg{
+    width: 12px;
+    height: 12px;
+    margin-left: 24px;
+    margin-top: -20px;
+  }
+/* 
+.card-pembayaran {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgb(0 0 0 / 15%);
+    margin: 20px;
+    width: 383px;
+    margin-left: 150px;
+  } */
+
+  .car-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgb(0 0 0 / 15%);
+    margin: 20px;
+    width: 383px;
+    margin-left: 150px;
+  }
+  
+.total{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 24px;
+}
+
+.total_num {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-right: 24px;
+    margin-top: -0px;
+
+}
+
+.harga{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 24px;
+}
+
+.harga_sewa{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #151515;
+    margin-left: 38px;
+}
+
+.harga_num {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #151515;
+    margin-right: 24px;
+    margin-top: -0px;
+}
+
+.termasuk{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5CB85F;
+    margin-right: 24px;
+    margin-top: -0px;
+}
+
+.hr_info {  
+margin-left: 23px;
+margin-top: 24px;
+}
+
+
+.btn_bayar{
+    background-color: #5CB85F;
+    border: none;
+    border-radius: 0px;
+    color: white;
+    font-weight: 700;
+    padding: 7px 12px;
+    width: 85%;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    line-height: 20px;
+    margin-left: 30px;
+}
+
+.btn_bayar:hover{
+    background-color: #0D28A6;
+}
+
+.h1_pay{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: 100px;
+    color: #000000;
+    margin-top: -50px;
+}
+
+.p_pay {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    margin-left: -105px;
+}
+
+.stopper{
+    margin-top: -56px;
+    margin-left: 700px;
+}
+
+.label {
+    font-size: 12px;
+}

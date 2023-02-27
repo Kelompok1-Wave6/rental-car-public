@@ -1,0 +1,94 @@
+/* HERO PAGE */
+.hero{
+    margin-top: 90px;
+    background-color: #F1F3FF;
+    position: relative;
+}
+
+
+/* .hero{
+    margin-left: 30px
+} */
+
+.btn_edit {
+    background-color: #FFFFFF;
+    border: 1px solid #0D28A6;
+    border-radius: 2px;
+    color: #0D28A6;
+    font-weight: 700;
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: 55px;
+    text-align: center;
+}
+
+/* .btn_sewa {
+    background-color: #5CB85F;
+    border: none;
+    border-radius: 0px;
+    color: white;
+    font-weight: 700;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    line-height: 20px;
+} */
+
+
+.wrapper {
+    margin-top: 100px;
+}
+
+.pencarianmu {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* .card {
+    width: 18.5rem;
+    height: 12rem;
+}
+
+.car_image{
+    width: 70px;
+    height: 160px;
+}
+
+.card_title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card_price {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card_text {
+   width: 301px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+} */
+
+/* .car_hasil{
+    margin: 150px 200px auto;
+    display: flex;
+} */
+/* @media screen and (max-width:940px) {
+    .hero .content p:nth-child(3) {
+        font-size: 2.6rem;
+    }
+
+    .hero .content p:nth-child(4) {
+        font-size: 1.6rem;
+    }
+} */

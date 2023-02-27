@@ -1,0 +1,249 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap'); 
+
+/* HERO PAGE */
+.hero{
+    margin-top: 90px;
+    background-color: #F1F3FF;
+    position: relative;
+}
+
+.sewaMobil {
+    font-size: 36px;
+    font-weight: 700;
+    width: 568px;
+    line-height: 150%;
+}
+
+.tema_sewaMobil {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    width: 468px;
+}
+
+
+.one-car {
+    /* margin-left: 110px; */
+    margin: 15px 0px 0px 60px;
+}   
+
+.car {
+    width: 779px;
+}
+
+/* @media screen and (max-width:940px) {
+    .hero .content p:nth-child(3) {
+        font-size: 2.6rem;
+    }
+
+    .hero .content p:nth-child(4) {
+        font-size: 1.6rem;
+    }
+} */
+
+
+/* BOX STYLE */
+.wrap_box {
+    margin-left: 40px;
+}
+
+.box{
+    margin: -50px 65px auto;
+    width: 1110px;
+    padding: 25px 0px 25px 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    position: absolute;
+}
+
+/* .box_isi{
+    padding-left: 2px;
+} */
+
+.label_name {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3C3C3C;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.data_name{
+    margin-left: 8px;
+}
+
+/* .data_name_stts{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 30px;
+}
+
+.form_control_stts{
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    padding: 10px 65px 9px 12px;
+} */
+
+.data_name input{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.form_control{
+    border: 1px solid #CCCCCC;
+    width: 215px;
+    border-radius: 2px;
+    padding: 9px 65px 9px 12px;
+}
+
+.btn_carimobil {
+    background-color: #5CB85F;
+    border: none;
+    border-radius: 0px;
+    color: white;
+    font-weight: 700;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    line-height: 20px;
+    margin-top: 22px;
+}
+
+.btn_carimobil:hover {
+    background-color: #0D28A6;
+}
+
+
+.dropdown{
+    width: 215px;
+    position: relative;
+    user-select: none;
+}
+
+.custom_dropdown {
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    padding: 9px 65px 9px 12px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.custom_dropdown::after {
+    display: block;
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-right: 2px solid #8A8A8A;
+    border-bottom: 2px solid #8A8A8A;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 15px;
+    top: 12px;
+}
+
+.custom_dropdown.open::after {
+    transform: rotate(-135deg);
+    top: 15px;
+}
+/* .drop-btn{
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    padding: 5px 10px 9px 12px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: #FFFFFF;
+} */
+/* .drop-btn{
+    width: 215px;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    padding: 8.5px 10px 9px 12px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: #FFFFFF;
+    top: 110%;
+    padding: 10px;
+    width: 213px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+} */
+
+/* .drop-btn span{
+   margin-right: 31px;
+  margin-top: 3.5px;
+} */
+
+.list_dropdown {
+    position: absolute;
+    top: 110%;
+    padding: 10px;
+    width: 213px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+/* .dropdown-content {
+    position: absolute;
+    top: 110%;
+    padding: 10px;
+    width: 213px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+} */
+
+.list_dropdown {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3C3C3C;
+    font-family: 'Rubik', sans-serif;
+}
+
+.item_dropdown {
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+/* .dropdown-item{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3C3C3C;
+    font-family: 'Rubik', sans-serif;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+} */
+
+.item_dropdown:hover {
+    background: #C9E7CA;
+    color: #5CB85F;
+    font-weight: 700;
+    width: 100%;
+}

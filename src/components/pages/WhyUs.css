@@ -1,0 +1,77 @@
+.whyus{
+    padding-top: 100px;
+}
+
+.card_title {
+    width: 113px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.card_text {
+    width: 220px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card_title_pro
+{
+    width: 133px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card_text_pro {
+    width: 220px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card {
+    width: 21rem;
+    height: 15rem;
+}
+.card:hover{
+    transition: all 0.2s;
+    transform: translateX(0.4rem) translateY(-1rem);
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.whyus_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.whyus_text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 576px) {    
+    .whyus{
+        padding-top: 0px;
+    }    
+
+    .whyus_title {
+       text-align: center;
+    }
+    
+    .whyus_text {
+        text-align: center;
+    }
+
+    .card {
+       margin-left: 5px;
+    }
+    
+    
+}
+    

@@ -1,0 +1,103 @@
+.img_etiket{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.payment_done h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.payment_done p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #8A8A8A;
+    margin-top: 16px;
+}
+
+.container-invoice{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 605px;
+    height: 300px;
+}
+
+.container-invoice h1{
+    padding: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 16px;
+  }
+
+  .container-invoice p {
+    margin: 15px;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: -0px;
+    color: #3C3C3C;
+  }
+
+.pdf{
+    width: 557px;
+    height: 162px;
+    left: 24px;
+    top: 104px;
+    background: #EEEEEE;
+    border: 1px dashed #D0D0D0;
+    border-radius: 4px;
+}
+
+.img_invoice{
+    margin-top: 11%;
+    margin-left: 40%;
+}
+
+.img_invoice p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn_invoice{
+    margin-top: 20px;
+    margin-right: 25px;
+    border: 2px solid #0D28A6;
+    border-radius: 2px; 
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0D28A6;
+    padding-right: 12px;
+}
+
+.btn_invoice:hover{
+    cursor: pointer;
+    background: #0D28A6;
+    color: white;
+}
+
+.icon{
+    margin-top: -3px;
+}

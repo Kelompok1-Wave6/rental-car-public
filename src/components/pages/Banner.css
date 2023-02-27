@@ -1,0 +1,47 @@
+.sec_banner  {
+    background: url(../asset/banner3.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 90px auto;
+}
+
+.banner_title {
+    padding: 70px;  
+}
+
+.banner_title h1{
+    width: 613px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+
+.banner_title p{
+    width: 468px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0 auto;
+
+}
+
+
+.btn_banner {
+    background-color: #5CB85F;
+    border: none;
+    border-radius: 0px;
+    color: white;
+    font-weight: 700;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    line-height: 20px;
+    margin-top: 50px;
+}
+

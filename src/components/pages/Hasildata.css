@@ -1,0 +1,107 @@
+.Hasil_Mobil {
+	padding: 130px 30px 20px 20px;
+	width: 99%;
+	margin: auto;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+}
+
+.card_item {
+	padding: 15px 30px;
+	width: 31%;
+	/* text-align: center; */
+}
+
+.container .card_item:hover {
+	transform: scale(1.02);
+	transition: transform .3s;
+	cursor: pointer;
+}
+
+.container .card_inner {
+	background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+	padding: 35px 20px;
+	min-height: 440px;
+	max-height: 370px;
+	width: 100%;
+}
+
+.container .card_item img {
+	width: 270px;
+    height: 160px;
+	margin-bottom: 10px;
+	align-items: center;
+	transition: transform .2s;
+}
+
+.container .card_item .name {
+	font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+.container .card_item .price {
+	font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.container .card_item .text {
+	width: 301px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.pilih_mobil {
+    background-color: #5CB85F;
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    line-height: 20px;
+    width: 272px;
+}
+
+.pilih_mobil:hover {
+    background-color: #0D28A6;
+}
+
+@media screen and (max-width: 1024px) {
+	.container .card_item {
+		width: 33%;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container .card_item {
+		width: 50%;
+	}
+	.wrapper .header {
+		font-size: 16px;
+		height: 50px;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.container .card_item {
+		width: 80%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.container .card_item {
+		width: 100%;
+	}
+}

@@ -1,0 +1,58 @@
+.our_services {
+    margin-top: 110px;
+}
+
+.img_ourservices {
+    width: 500px;
+}
+
+.title_text {
+    padding-top: 35px;
+}
+
+.services_title {
+    width: 468px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.services_text {
+    width: 460px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 24px;
+}
+
+a:link { text-decoration: none; }
+
+.ceklis_text {
+    width: 269px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .our_services {
+        margin-left: 5px;
+    }    
+    
+    .img_ourservices {
+        width: 300px;
+        margin-right: 20px;
+    }
+    
+    .services_title {
+        width: 320px;
+    }
+
+    .services_text {
+        width: 359px;
+        font-size: 14.5px;
+        margin-top: 15px;
+    }
+}
+

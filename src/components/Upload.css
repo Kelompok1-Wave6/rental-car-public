@@ -1,0 +1,98 @@
+.card-confirm{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    margin-top: -500px;
+    margin-left: 100px;
+    width: 605px;
+    height: 900px;
+}
+
+
+.confrm {
+    margin: 15px;
+    padding: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.confrm_info{
+    margin: 15px;
+    padding: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: -30px;
+}
+
+.upload_text{
+    margin: 15px;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 24px;
+}
+
+.upload_desc {
+    margin: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: -10px;
+
+}
+
+.upload_img {
+    width: 70%;
+    margin-left: 80px;
+}
+
+.form-control{
+    width: 60%;
+    margin-left: 2px;
+}
+
+/* .form_control {
+    width: 80%;
+    margin-left: 50px;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+
+.inputfile + label {
+	cursor: pointer; 
+
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+} */

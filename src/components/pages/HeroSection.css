@@ -1,0 +1,93 @@
+/* HERO PAGE */
+.hero{
+    margin-top: 90px;
+    background-color: #F1F3FF;
+    position: relative;
+}
+
+
+/* .hero{
+    margin-left: 30px
+} */
+
+
+.btn_sewa {
+    background-color: #5CB85F;
+    border: none;
+    border-radius: 0px;
+    color: white;
+    font-weight: 700;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    line-height: 20px;
+}
+
+.btn_sewa:hover{
+    background-color: #0D28A6;
+}
+
+.sewaMobil {
+    font-size: 36px;
+    font-weight: 700;
+    width: 568px;
+    line-height: 150%;
+}
+
+.tema_sewaMobil {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    width: 468px;
+}
+
+
+.one-car {
+    /* margin-left: 110px; */
+    margin: 15px 0px 0px 60px;
+}   
+
+.car {
+    width: 779px;
+}
+
+/* @media screen and (max-width:940px) {
+    .hero .content p:nth-child(3) {
+        font-size: 2.6rem;
+    }
+
+    .hero .content p:nth-child(4) {
+        font-size: 1.6rem;
+    }
+} */
+
+@media screen and (max-width: 576px) {    
+
+/* .wrap_hero{
+    margin-bottom: 40px;
+} */
+
+.hero{
+    margin-left: 5px;
+}
+
+.sewaMobil {
+    width: 310px;
+    line-height: 54px;
+}
+
+.tema_sewaMobil {
+    width: 328px;
+}
+
+.one-car {
+    margin: 0px 0px 0px 5px;
+}   
+
+.car {
+    width: 404.7px;
+}
+
+}

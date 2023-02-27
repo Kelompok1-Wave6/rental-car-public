@@ -1,0 +1,132 @@
+
+.testi {
+    margin-top: 100px;
+}
+
+.testi_title {
+    width: 468px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.text_h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.text_p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.testi_view {
+    width: 615px;
+    margin: 0px auto;
+}
+
+
+.block {
+    background: #F1F3FF;
+    padding: 60px 0px 70px 0px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.img_area{
+    margin: 30px 50px;
+}
+
+/* .img_box_inner{
+
+} */
+
+.testi_content {
+    margin-left: -90px;
+}
+
+.testi_content h1{
+    width: 415px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.testi_content p{
+    width: 415px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.carousel-control-prev-icon{
+    margin-left: 470px;
+    z-index: 0;
+}
+
+.carousel-control-next-icon{
+    margin-right: 470px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    margin-top: 310px;
+}
+
+@media screen and (max-width: 576px) {
+    .block {
+        background: #F1F3FF;
+        padding: 40px, 32px, 40px, 32px;
+        margin: 16px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        width: 395px;
+    }
+    
+    .img_area{
+        margin: 15px 160px;
+    }
+    
+    .testi_content {
+        margin-left: 10px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .testi_content h1{
+       text-align: start;
+       width: 400px;
+       margin-left: 5px;
+    }
+    .testi_content p{
+       text-align: start;
+      
+    }
+    
+    .carousel-control-prev-icon{
+        margin-left: 285px;
+    }
+    
+    .carousel-control-next-icon{
+        margin-right: 670px;
+    }
+    
+        
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon{
+        margin-top: 400px;
+        
+    }
+
+    .text_h1 {
+        text-align: center;
+    }
+    
+    .text_p {
+        text-align: center;
+    }
+    
+
+}
