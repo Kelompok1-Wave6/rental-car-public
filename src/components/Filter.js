@@ -6,6 +6,7 @@ import ImgUser from "../components/asset/fi_users.svg";
 import './Filter.css'
 import { Form, DatePicker, Button} from 'antd'
 import dayjs from 'dayjs';
+import NoImg from './asset/No-Img.webp'
 
 const Filter = () => {
 
@@ -142,11 +143,28 @@ const Filter = () => {
                             Object.entries(carData).length ? (
                                 <div className="car-card">
                                     <div className="img-container">
-                                        <img src={carData.image} alt="car" />
+                                        {/* <img src={carData.image} alt="car" /> */}
+                                         
+                                   <img
+                              src={carData.image !== null ? carData.image : NoImg}
+                              
+                              alt="..."
+                            />
                                     </div>
                                     <div className="car-text">
                                         <p className="car-title">{carData.name}</p>
+                                        
+                                        <div className="category">
                                         <img className="fi-user" src={ImgUser} alt="users" />
+                        <p>{(() => {
+                          switch (carData.category) {
+                            case "small": return "2-4 orang";
+                            case "medium": return "4-6 orang";
+                            case "large": return "6-8 orang";
+                            default: return "-"
+                          }
+                        })()}</p>
+                      </div>
                                         <p className="lama-sewa">Tentukan lama sewa mobil (max. 7 hari)</p>
 
                                         {/* <RangePicker

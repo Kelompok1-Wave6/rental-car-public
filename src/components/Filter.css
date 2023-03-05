@@ -76,7 +76,7 @@
 
   .fi-user {
     width: 12px;
-    height: 12px;  
+    /* height: 12px;   */
     margin-top:-18px;
 }
 
@@ -124,4 +124,17 @@
 
 .btn_sewa:hover{
   background-color: #35B0A7;
+}
+
+.category p {
+  padding-left: 10px;
+}
+
+.category {
+  color: #8a8a8a;
+  display: flex;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
 }

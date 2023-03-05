@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Hasildata.css'
 import axios from 'axios';
 import { NavLink } from 'react-router-dom';
+import NoImg from '../asset/No-Img.webp'
 
 const Hasildata = () => {
 
@@ -36,7 +37,12 @@ const Hasildata = () => {
 
                            <div className="card_item" key={car.id}>
                                <div className="card_inner">
-                                   <img src={car.image} alt="car" />
+                                   {/* <img src={car.image} alt="car" /> */}
+                                   <img
+                              src={car.image !== null ? car.image : NoImg}
+                              
+                              alt="..."
+                            />
                                    <h1 className="name">{car.name}</h1>
                                    <h1 className="price ">Rp {car.price}</h1>
                                    <p className="text">
