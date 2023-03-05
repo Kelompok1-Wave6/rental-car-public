@@ -62,6 +62,13 @@
     margin-left: 2px;
 }
 
+.confirm-timer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
 /* .form_control {
     width: 80%;
     margin-left: 50px;

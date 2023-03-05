@@ -5,6 +5,7 @@ import React, { useState } from 'react'
 // import { useNavigate } from 'react-router';
 import './Upload.css'
 import { useNavigate } from "react-router";
+import TimerPay10Min from "./TimerPay10Min";
 
 
 
@@ -132,7 +133,10 @@ const min = limitPayment.getMinutes();
 
     {/* Konfirmasi Pembayaran Upload*/}
         <div className="card-confirm">
+        <div className="confirm-timer">
           <h1 className="confrm">Konfirmasi Pembayaran</h1>
+          <TimerPay10Min/>
+          </div>
             <p className="pt-4 confrm_info">Terima kasih telah melakukan konfirmasi pembayaran. Pembayaranmu akan segera kami cek tunggu kurang lebih 10 menit untuk mendapatkan konfirmasi.</p>
            <p className="upload_text">Upload Bukti Pembayaran</p>
            <p className="upload_desc">Untuk membantu kami lebih cepat melakukan pengecekan. Kamu bisa upload bukti bayarmu</p>
