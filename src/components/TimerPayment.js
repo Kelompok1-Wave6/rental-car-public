@@ -1,39 +1,62 @@
-import React, { Fragment} from 'react'
+import React, { useState, useEffect, useCallback } from 'react';
+import './TimerPayment.css';
 
-const TimerPayment = ({ timerDay, timerHours, timerMin, timerSecond }) => 
-{
-    return ( <Fragment>
-        <section className='timer_conn'>
-            <section className="timer">
-                <div className="d-flex clock">
-                    {/* <section>
-                        <p className='fs-5'>{timerDay}</p>
-                    </section>
-                    <span>:</span> */}
-                    <section>
-                        <p className='fs-5'>{timerHours}</p>
-                    </section>
-                    <span>:</span>
-                    <div>
-                        <p className='fs-5'>{timerMin}</p>
-                    </div>
-                    <span>:</span>
-                    <div>
-                        <p className='fs-5'>{timerSecond}</p>
-                    </div>
-                    
-                    
-                </div>
-            </section>
-        </section>
-    </Fragment>
+const TimerPayment = () => {
+
+    const [timerHours, setTimerHours] = useState();
+    const [timerMinutes, setTimerMinutes] = useState();
+    const [timerSeconds, setTimerSeconds] = useState();
+  
+    const startTimer = useCallback(() => {
+      let oneDay = 86400000;
+      const CountDown = new Date().getTime() + oneDay;
+  
+      let interval = setInterval(() => {
+        const now = new Date().getTime();
+  
+        const distance = CountDown - now;
+  
+        const hours = Math.floor(
+          (distance % (24 * 60 * 60 * 1000)) / (1000 * 60 * 60)
+        );
+        const minutes = Math.floor(
+          (distance % (60 * 60 * 1000)) / (1000 * 60)
+        );
+        const seconds = Math.floor(
+          (distance % (60 * 1000)) / (1000)
+        );
+  
+        if (distance < 0) {
+          clearInterval(interval);
+        } else {
+          setTimerHours(hours);
+          setTimerMinutes(minutes);
+          setTimerSeconds(seconds);
+        }
+      });
+    }, []);
+  
+    useEffect(() => {
+      startTimer();
+      return () => {
+        setTimerHours();
+        setTimerMinutes();
+        setTimerSeconds();
+      }
+    }, [startTimer]);
+
+
+    return ( 
+        <section className="count1day">
+      <div className="clock1">
+        <span>{parseInt(timerHours) < 10 ? "0" + timerHours : timerHours}</span>
+        :
+        <span>{parseInt(timerMinutes) < 10 ? "0" + timerMinutes : timerMinutes}</span>
+        :
+        <span>{parseInt(timerSeconds) < 10 ? "0" + timerSeconds : timerSeconds}</span>
+      </div>
+    </section>
     )
-}
-
-TimerPayment.defaultProps = {
-    timerHours: 24,
-    timerMin: 60,
-    timerSecond: 10
-}
+};
 
 export default TimerPayment

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import './Pembayaran_Tf.css'
 import { Container, Row, Col, Form } from "react-bootstrap";
 import StopperTwo from '../pages/stopper/StopperTwo'
@@ -14,10 +14,22 @@ const Pembayaran_Tf = () => {
   }
 
 
-    const [timerDay, setTimerDays] = useState()
-    const [timerHours, setTimerHours] = useState()
-    const [timerMin, setTimerMin] = useState()
-    const [timerSecond, setTimerSecond] = useState()
+  const d_names = ["Minggu", "Senin", "Selasa",
+  "Rabu", "Kamis", "Jumat", "Sabtu"];
+const m_names = ["Januari", "Februari", "Maret",
+  "April", "Mei", "Juni", "Juli", "Agustus", "September",
+  "Oktober", "November", "Desember"];
+
+const today = new Date();
+const limitPayment = new Date();
+limitPayment.setDate(today.getDate() + 1);
+
+const day = limitPayment.getDay();
+const date = limitPayment.getDate();
+const month = limitPayment.getMonth();
+const year = limitPayment.getFullYear();
+const hour = limitPayment.getHours();
+const min = limitPayment.getMinutes();
 
     // let interval;
     
@@ -79,15 +91,14 @@ const Pembayaran_Tf = () => {
           <div className="d-flex justify-content-between">
             <h2 className="pt-4 bold">Selesaikan Pembayaran Sebelum</h2>
               <div className='timer_pembayaran'>
-              <TimerPayment
-                timerDay={timerDay}
-                timerHours={timerHours}
-                timerMin={timerMin}
-                setTimerSecond={timerSecond}
-              />
+              <TimerPayment/>
               </div>
               </div>
-            <h2 className="normal">Rabu, 19 Mei 2022 jam 13.00 WIB</h2>
+            <h2 className="normal">{
+              d_names[day] + ", " + (parseInt(date) < 10 ? "0" + date : date) + " " + m_names[month] + " " + year
+              } jam {
+                (parseInt(hour) < 10 ? "0" + hour : hour) + "." + (parseInt(min) < 10 ? "0" + min : min)
+              } WIB</h2>
           </div>
            
            
