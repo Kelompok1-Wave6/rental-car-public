@@ -27,7 +27,27 @@
     line-height: 20px;
     /* margin-left: 5px; */
 }
+.header .nav-regis a {
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #5CB85F;
+    color: white;
+    border-radius: 2px;
+    margin-top: 0;
+    padding: 8px 12px;
+  }
 
+  .logoutbtn {
+    background-color: white !important;
+    color: #0D28A6 !important;
+    border: 1px solid #0D28A6 !important;
+    border-radius: 2px !important;
+  
+  }
+  
 .header .navbar ul {
    list-style: none;
 }
@@ -39,6 +59,7 @@
 .header .nav-menu {
     display: flex;
     text-decoration: none;
+    margin-left: 500px;
 }
 
 .header .nav-item {
@@ -99,6 +120,15 @@
         margin: 0.3rem 0;
     }
 
+    .logoutbtn {
+        background-color: white !important;
+        color: #0D28A6 !important;
+        border: 1px solid #0D28A6 !important;
+        border-radius: 2px !important;
+      }
+
+
+      
     /* .header .navbar ul {
         display: none;
      }
